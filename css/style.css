@@ -33,6 +33,9 @@ li a {
     align-items: center;
 }
 
+.dashed-black-border {
+    border: 3px dashed black;
+}
 
 /* HEADER */
 
@@ -50,7 +53,6 @@ header {
 }
 
 .nav-item {
-    border: 2px dashed black;
     line-height: 50px;
     font-size: 1.5rem;
 }
@@ -89,16 +91,14 @@ header {
     /* debug variable */
     background-color: blue;  
     padding:50px;
-    border: 2px solid black;
     align-items: center;
     justify-content: center;
 }
 
 
 .hero-content {
-    width:50%;
+    width:60%;
     background-color: pink;
-    border: 2px dashed black;
     /* debug variable */
     min-height:300px ;
 }
@@ -107,16 +107,12 @@ header {
 /* sections */
 .section {
     /* debug variable */
-    padding:50px;
+    padding:50px 0;
     justify-content: center;
     align-items: center;
-
-
 }
 
-.white-div {
 
-}
 
 .gray-div {
     background-color: lightgrey;
@@ -125,21 +121,19 @@ header {
 
 
 .azure-div {
-    width:50%;
+    width:60%;
     /* debug variable */
     min-height:400px;
     background-color: lightblue;
-    border: 2px dashed black;
-
+    
 
 }
 
 .pink-div{
-    width: 30%;
+    width: 40%;
     /* debug variable */
     min-height: 400px;
     background-color: pink;
-    border: 2px dashed black;
 }
  /* /sections */
 
@@ -151,7 +145,6 @@ header {
     min-height: 600px;
     width:100%;
     background-color: green;
-    border: 2px dashed black;
 
  }
 
@@ -159,3 +152,62 @@ header {
 
 
 /* FOOTER */
+
+footer {
+    background-color: rgb(40, 37, 37);
+  
+}
+
+.first-footer-section {
+    padding:10px 0 40px 0;
+    border-bottom:2px solid white
+    
+}
+
+
+.footer-div {
+    min-height: 400px;
+    
+}
+
+.big {
+    background-color: pink;
+    width: calc((100% / 6)*2);
+    
+
+
+}
+
+.small {
+    width: calc(100% / 6);
+    background-color: aquamarine;
+    border: 3px dashed white;
+}
+
+.second-footer-section{
+    padding:40px 0 0 0;
+
+}
+
+.footer-div-bottom {
+    background-color: aquamarine;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    /* debug variable */
+    height: 80px;
+}
+
+.footer-logo {
+    background-color: lightcoral;
+    border: 2px dashed black;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.btn {
+    border: 2px dashed black;
+    background-color: lightcoral;
+    font-size: 1.5rem;
+    padding: 5px;
+}
