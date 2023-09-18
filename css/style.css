@@ -29,7 +29,7 @@ li a {
 }
 
 .wrapper {
-    height:100px;
+    min-height:100px;
     align-items: center;
 }
 
@@ -88,7 +88,7 @@ header {
 .hero {
     /* debug variable */
     background-color: blue;  
-    height: 500px;
+    min-height: 400px;
     border: 2px solid black;
     align-items: center;
     justify-content: center;
@@ -96,12 +96,54 @@ header {
 
 
 .hero-content {
-    width: calc(60%);
+    width: calc(50%);
     background-color: pink;
     border: 2px dashed black;
     /* debug variable */
-    min-height:400px ;
+    min-height:300px ;
 }
 /* MAIN */
+
+.section {
+    /* debug variable */
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.white-div {
+
+}
+
+.gray-div {
+    background-color: lightgrey;
+
+}
+
+
+.azure-div {
+    width:50%;
+    /* debug variable */
+    min-height:400px;
+    background-color: lightblue;
+    border: 2px dashed black;
+
+
+}
+
+.pink-div{
+    width: 30%;
+    /* debug variable */
+    min-height: 400px;
+    background-color: pink;
+    border: 2px dashed black;
+
+    
+}
+
+
+
 
 /* FOOTER */
