@@ -12,3 +12,77 @@
     width: 80%;
     margin: 0 auto;
 }
+
+.flex-container {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+  
+
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* DEBUG */
+
+
+/* HEADER */
+
+header {
+    height: 100px;
+    background-color: lightskyblue;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    height: 50px;
+    background-color: orange;
+  
+    
+}
+
+.nav-item {
+    border: 2px dashed black;
+    line-height: 50px;
+    font-size: 1.5rem;
+}
+
+.logo {
+    width: calc(100% / 4);
+    text-align: left;
+    padding-left: 20px;
+
+    
+
+}
+
+.menu {
+    width:calc(100% / 2);
+ 
+  
+}
+.list-menu {
+    gap: 10px;
+    justify-content: center;
+}
+
+
+
+
+
+.login {
+    width: calc(100% / 4);
+    text-align: right;
+    padding-right: 20px;
+}
+
+
+/* MAIN */
+
+/* FOOTER */
