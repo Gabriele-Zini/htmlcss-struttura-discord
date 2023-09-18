@@ -88,7 +88,7 @@ header {
 .hero {
     /* debug variable */
     background-color: blue;  
-    min-height: 400px;
+    padding:50px;
     border: 2px solid black;
     align-items: center;
     justify-content: center;
@@ -96,7 +96,7 @@ header {
 
 
 .hero-content {
-    width: calc(50%);
+    width:50%;
     background-color: pink;
     border: 2px dashed black;
     /* debug variable */
@@ -104,9 +104,10 @@ header {
 }
 /* MAIN */
 
+/* sections */
 .section {
     /* debug variable */
-    min-height: 500px;
+    padding:50px;
     justify-content: center;
     align-items: center;
 
@@ -139,11 +140,22 @@ header {
     min-height: 400px;
     background-color: pink;
     border: 2px dashed black;
-
-    
 }
+ /* /sections */
 
 
+ /* main-content */
+
+
+ .main-box {
+    min-height: 600px;
+    width:100%;
+    background-color: green;
+    border: 2px dashed black;
+
+ }
+
+ /* /main-content */
 
 
 /* FOOTER */
