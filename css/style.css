@@ -53,7 +53,7 @@ header {
 
 .navbar {
     display: flex;
-    height: 3.125rem;
+    min-height: 3.125rem;
     background-color: orange;
 
 
