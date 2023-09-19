@@ -15,6 +15,7 @@ img {
 .container {
     width: 80%;
     margin: 0 auto;
+    max-width: 1000px;
 }
 
 .flex-container {
@@ -35,7 +36,7 @@ li a {
 .wrapper {
     align-items: center;
     /* debug variable */
-    min-height:100px;
+    min-height:6.25rem;
 }
 
 .dashed-black-border {
@@ -52,7 +53,7 @@ header {
 
 .navbar {
     display: flex;
-    height: 50px;
+    height: 3.125rem;
     background-color: orange;
 
 
@@ -73,10 +74,10 @@ header {
 }
 
 .menu {
-    width:calc(100% / 2);
-
+    flex-grow: 1;
 
 }
+
 .list-menu {
     gap: 10px;
     justify-content: center;
